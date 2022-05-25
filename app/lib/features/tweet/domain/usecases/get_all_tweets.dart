@@ -1,3 +1,5 @@
+import 'package:dartz/dartz.dart';
+import 'package:app/core/error/failure.dart';
 import '../entities/tweet.dart';
 import '../repositories/tweet_repository.dart';
 
@@ -6,7 +8,7 @@ class GetAllTweets {
 
   GetAllTweets(this.repository);
 
-  Future<List<Tweet>> execute() {
-    return repository.getAllTweets();
+  Future<Either<Failure, List<Tweet>>> call() async {
+    return await repository.getAllTweets();
   }
 }

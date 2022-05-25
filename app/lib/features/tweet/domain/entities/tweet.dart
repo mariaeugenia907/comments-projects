@@ -6,4 +6,9 @@ class Tweet {
     required this.id,
     required this.content,
   });
+
+  @override
+  List<Object> get props => [
+    id, content
+  ];
 }

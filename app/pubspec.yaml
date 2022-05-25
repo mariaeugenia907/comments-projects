@@ -28,6 +28,8 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   mockito: ^5.2.0
+  equatable: ^2.0.3
+  dartz: ^0.10.1
   flutter:
     sdk: flutter
 
