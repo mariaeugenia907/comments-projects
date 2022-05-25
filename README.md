@@ -2,7 +2,7 @@
 
 # Projeto Tweet-Model
 
--Objetivo: DEsenvolver um aplicativo respeitando a arquitetura clean semelhante ao Tweet
+-Objetivo: Desenvolver um aplicativo respeitando a arquitetura clean semelhante ao Tweet
 
 ## Tecnologias
 
